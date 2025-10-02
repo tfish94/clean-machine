@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+header {
+  background: #d62828;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  color: #fff;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover {
+  background: #f77f00;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 20px auto;
+}
+h2 {
+  color: #d62828;
+}
+.cta {
+  text-align: center;
+  margin: 40px 0;
+}
+.cta a {
+  background: #f77f00;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: background 0.3s ease;
+}
+.cta a:hover {
+  background: #d65c00;
+}
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+}
+footer a {
+  color: #f77f00;
+  text-decoration: none;
+}
+
+/* Sticky bottom bar */
+.sticky-book {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f77f00;
+  text-align: center;
+  padding: 15px 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sticky-book a {
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sticky-book a:hover {
+  text-decoration: underline;
+}
